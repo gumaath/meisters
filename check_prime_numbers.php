@@ -15,12 +15,12 @@ function checkIsPrime($number = 0)
     // Converting string numerical to integer.
     $number = intval($number);
 
-    // Verify if the number is prime, if yes, return. (Early Return)
+    // Verify if the number is not prime, if yes, return. (Early Return)
     if ($number % 2 === 0) {
-        return "{$number} is prime.";
+        return "{$number} is not prime.";
     }
 
-    return "{$number} is not prime.";
+    return "{$number} is prime.";
 }
 
 try {

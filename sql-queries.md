@@ -2,7 +2,6 @@
 -- Write an SQL query to retrieve the first names and last names of all persons in a hypothetical "persons" table. Display the results.
 
 SELECT FirstName, LastName FROM persons;
-WHERE TIMESTAMPDIFF(YEAR, dob, CURDATE()) < 18; ersons;
 
 -- Write an SQL query to remove all records from the "persons" table for individuals who are minors (under 18 years old) based on their date of birth.
 
